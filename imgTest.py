@@ -4,8 +4,9 @@ import cv2
 
 # 所需加载的模型目录
 path = 'models/best.pt'
+# path='yolov8n.pt'
 # 需要检测的图片地址
-img_path = "TestFiles/Riped tomato_8.jpeg"
+img_path = "TestFiles/142890.jpg"
 
 # 加载预训练模型
 # conf	0.25	object confidence threshold for detection

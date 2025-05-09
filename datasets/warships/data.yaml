@@ -1,0 +1,25 @@
+train: D:\learningpath\GraduationProject\ShipDetection\datasets\warships\train
+val: D:\learningpath\GraduationProject\ShipDetection\datasets\warships\valid
+test: D:\learningpath\GraduationProject\ShipDetection\datasets\warships\test
+
+nc: 13
+names: [ 'cargo',
+         'passenger',
+         'cruise',
+         'bulker',
+         'tanker',
+         'sailingboat',
+         'tug',
+         'fishing',
+         'drill',
+         'firefighting',
+         'containership',
+         'warship',
+         'submarine' ]
+
+#  roboflow:
+#  workspace:
+#  project:
+#  version: 11
+#  license:
+#  url: https://universe.roboflow.com
